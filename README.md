@@ -1,6 +1,6 @@
 # My renovate config
 
-To use, add the following config to a target repo:
+To use, add the following config to a target repo (within a `.github/renovate.json` file):
 
 ```json
 {
