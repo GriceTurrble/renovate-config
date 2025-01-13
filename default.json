@@ -6,5 +6,6 @@
   "lockFileMaintenance": {
     "enabled": true
   },
-  "addLabels": ["dependencies"]
+  "addLabels": ["dependencies"],
+  "rebaseWhen": "behind-base-branch"
 }
