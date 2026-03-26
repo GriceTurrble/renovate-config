@@ -10,5 +10,14 @@
     "enabled": true
   },
   "addLabels": ["dependencies"],
-  "rebaseWhen": "behind-base-branch"
+  "rebaseWhen": "behind-base-branch",
+  "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "pinDigests": true,
+      "groupName": "github-actions-nonmajor",
+    }
+  ]
 }
