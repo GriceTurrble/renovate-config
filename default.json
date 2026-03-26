@@ -17,7 +17,7 @@
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "pinDigests": true,
-      "groupName": "github-actions-nonmajor",
+      "groupName": "github-actions-nonmajor"
     }
   ]
 }
