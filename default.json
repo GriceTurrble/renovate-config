@@ -15,8 +15,8 @@
       "matchManagers": ["github-actions"],
       "matchUpdateTypes": ["minor", "patch"],
       "minimumReleaseAge": "3 days",
-      "pinDigests": true,
-    }
+      "pinDigests": true
+    },
     {
       "matchDatasources": ["cargo"],
       "minimumReleaseAge": "7 days",
