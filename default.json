@@ -27,6 +27,6 @@
     },
   ],
   "rebaseWhen": "behind-base-branch",
-  "schedule": ["* 0-3 * * *"],
+  "schedule": ["* 6-9 * * 2"],
   "timezone": "America/New_York"
 }
