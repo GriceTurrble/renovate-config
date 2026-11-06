@@ -16,15 +16,22 @@
       "matchUpdateTypes": ["minor", "patch"],
       "minimumReleaseAge": "3 days",
       "pinDigests": true,
+    }
+    {
+      "matchDatasources": ["cargo"],
+      "minimumReleaseAge": "7 days",
+      "addLabels": ["cargo"]
     },
     {
-      "matchDatasources": [
-        "crate",
-        "npm",
-        "pypi"
-      ],
-      "minimumReleaseAge": "7 days"
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "7 days",
+      "addLabels": ["npm"]
     },
+    {
+      "matchDatasources": ["pypi"],
+      "minimumReleaseAge": "7 days",
+      "addLabels": ["python"]
+    }
   ],
   "rebaseWhen": "behind-base-branch",
   "schedule": ["* 6-9 * * 2"],
